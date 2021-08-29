@@ -81,5 +81,5 @@ let autosParaLaVenta = this.autosParaLaVenta()
    } 
 } 
 console.log (autos)
-console.log ("hola")
+console.log ("holae")
 console.log ("Git")
