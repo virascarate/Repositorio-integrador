@@ -68,8 +68,8 @@ let precios = listaDePrecios.reduce((acumulador,precio) => ( precio + acumulador
 
 autosQuePuedeComprar : function autosQuePuedeComprar (persona) 
    {
-let autosParaLaVenta = this.autosParaLaVenta()  
-  
+let autosParaLaVenta = this.autosParaLaVenta() // arreglo de autos 
+ 
  let arrayAutosQuePuedeComprar = [] 
  
    for (let i= 0; i<autosParaLaVenta.length; i++) 
@@ -81,7 +81,9 @@ let autosParaLaVenta = this.autosParaLaVenta()
    } 
 } 
 console.log (autos)
-console.log ("hola")
-console.log ("Giit")
-console.log ("holae")
-console.log ("Git")
+console.log (concesionaria.buscarAuto('JJK116'))
+console.log (concesionaria.venderAuto('JJK118'))
+console.log (concesionaria.autosParaLaVenta())
+console.log (concesionaria.autosNuevos())
+console.log (concesionaria.listaDeVentas())
+console.log (concesionaria.totalDeVentas())
